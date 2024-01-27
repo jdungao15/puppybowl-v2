@@ -1,0 +1,28 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.brand a {
+  text-transform: uppercase;
+  color: var(--main-color);
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+}
+
+.brand a:hover {
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: center;
+}
+
+.links-container a {
+  text-decoration: none;
+  margin: 0px 10px 0px 10px;
+  color: var(--third-color);
+}
