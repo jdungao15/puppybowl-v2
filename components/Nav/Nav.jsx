@@ -8,7 +8,7 @@ const Nav = () => {
           <h1>Puppybowl</h1>
         </a>
       </div>
-      <div class="links-container">
+      <div className="links-container">
         <img src={home} alt="home logo" />
       </div>
     </nav>
